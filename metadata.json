@@ -4,5 +4,8 @@
   "uuid": "suppress-startup-animation@icedman.github.com",
   "shell-version": [
     "42"
-  ]
+  ],
+  "url": "https://github.com/icedman/suppress-startup-animation",
+  "uuid": "suppress-startup-animation@icedman.github.com",
+  "version": 2
 }
