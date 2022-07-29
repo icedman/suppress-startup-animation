@@ -1,0 +1,8 @@
+{
+  "name": "Suppress Startup Animation",
+  "description": "Suppress the overview startup animation",
+  "uuid": "suppress-startup-animation@icedman.github.com",
+  "shell-version": [
+    "42"
+  ]
+}
