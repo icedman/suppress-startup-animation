@@ -3,9 +3,9 @@
   "description": "Suppress the overview startup animation",
   "uuid": "suppress-startup-animation@icedman.github.com",
   "shell-version": [
-    "42", "43"
+    "45"
   ],
   "url": "https://github.com/icedman/suppress-startup-animation",
   "uuid": "suppress-startup-animation@icedman.github.com",
-  "version": 3 
+  "version": 7
 }

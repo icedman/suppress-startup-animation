@@ -18,20 +18,18 @@
 
 /* exported init */
 
-const Main = imports.ui.main;
+import * as Main from 'resource:///org/gnome/shell/ui/main.js';
 
-class Extension {
-  constructor() {}
+export default class Extension {
 
   enable() {
+    if (!this._restore) {
+      this._restore = Main.overview.runStartupAnimation;
+    }
     Main.overview.runStartupAnimation = (callback) => callback();
   }
 
   disable() {
-    // no need to restore the function (any reload will do it for us if this is disabled)
+    Main.overview.runStartupAnimation = this._restore;
   }
-}
-
-function init() {
-  return new Extension();
 }
